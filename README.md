@@ -1,6 +1,6 @@
 # BibliotecaFase1
 
-Sistema web para la **Biblioteca Miskatonic**: catálogo de libros, préstamos, devoluciones y consultas.
+Sistema web para la **Biblioteca Universidad Miskatonic**: catálogo de libros, préstamos, devoluciones y consultas.
 Hecho con **PHP 8.1+** y **Bootstrap 5**. Los datos se guardan en archivos `.txt` (sin base de datos).
 
 ## Ejecutar

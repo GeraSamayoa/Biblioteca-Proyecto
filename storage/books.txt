@@ -1,6 +1,6 @@
 MSK-1001;Hombres de maíz;Miguel Ángel Asturias;Novela;1949;3;2;En circulación
 MSK-1002;El Señor Presidente;Miguel Ángel Asturias;Novela;1946;2;2;En circulación
-MSK-1003;Rayuela;Julio Cortázar;Novela;1963;2;1;En circulación
+MSK-1003;Rayuela;Julio Cortázar;Novela;1963;2;2;En circulación
 MSK-2001;The Pragmatic Programmer;Andrew Hunt;Programación;1999;4;4;En circulación
 MSK-3001;Cosmos;Carl Sagan;Ciencias;1980;1;1;En circulación
 MSK-4001;Veinte poemas de amor;Pablo Neruda;Poesía;1924;1;1;Fuera de circulación

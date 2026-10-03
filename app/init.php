@@ -11,7 +11,7 @@ const ROOT_DIR    = __DIR__ . '/..';
 const STORAGE_DIR = ROOT_DIR . '/storage';
 
 // Datos generales que se muestran en la interfaz
-const LIBRARY_NAME   = 'Biblioteca Miskatonic';
+const LIBRARY_NAME   = 'Biblioteca Universidad Miskatonic';
 const LIBRARY_MOTTO  = 'Sistema de préstamos';
 
 // Listas fijas para los formularios
