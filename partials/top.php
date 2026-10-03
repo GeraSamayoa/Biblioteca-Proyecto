@@ -1,12 +1,5 @@
 <?php
-/* ============================================================
- * partials/top.php — Inicio de cada página
- * Contiene el <head>, la barra lateral, el encabezado y abre el área de contenido.
- *
- * Antes de incluirlo, la página define:
- *   $pageTitle  -> texto de la pestaña del navegador
- *   $section    -> clave del menú que se marca como activa
- * ============================================================ */
+
 $pageTitle ??= LIBRARY_NAME;
 $section   ??= '';
 ?>

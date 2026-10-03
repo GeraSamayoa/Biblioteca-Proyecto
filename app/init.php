@@ -1,9 +1,4 @@
 <?php
-/* ============================================================
- * init.php — Punto de arranque
- * Todas las páginas lo cargan primero. Aquí se configura la
- * zona horaria, la sesión, las rutas y se cargan las clases.
- * ============================================================ */
 
 date_default_timezone_set('America/Guatemala');
 

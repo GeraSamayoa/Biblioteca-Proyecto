@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * book_delete.php — Confirmación para eliminar un libro
- * GET  -> muestra los datos del libro y pide confirmar
- * POST -> elimina (si no tiene préstamos activos)
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 $code = param('code');

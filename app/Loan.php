@@ -1,11 +1,4 @@
 <?php
-/* ============================================================
- * Loan.php — Modelo de un préstamo
- *
- * En el archivo solo se guardan dos estados: Activo y Devuelto.
- * "Vencido" no se guarda: se calcula comparando la fecha
- * límite con la fecha de hoy (ver status()).
- * ============================================================ */
 
 class Loan
 {

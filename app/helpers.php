@@ -1,7 +1,4 @@
 <?php
-/* ============================================================
- * helpers.php — Funciones pequeñas de uso general
- * ============================================================ */
 
 // Escapa un texto antes de imprimirlo en el HTML (evita inyección de código)
 function h(mixed $text): string

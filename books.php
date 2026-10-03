@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * books.php — Catálogo de libros
- * Lista todos los libros y permite buscarlos por código,
- * título, autor o categoría.
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 // Criterios de búsqueda que llegan por la URL

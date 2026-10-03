@@ -1,8 +1,3 @@
-// ============================================================
-// main.js — Comportamiento del lado del cliente
-// La lógica real (validar, guardar) se hace en PHP; aquí solo
-// se muestran las notificaciones y se piden confirmaciones.
-// ============================================================
 
 document.addEventListener('DOMContentLoaded', () => {
 

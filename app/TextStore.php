@@ -1,14 +1,4 @@
 <?php
-/* ============================================================
- * TextStore.php — Persistencia en archivos de texto plano
- *
- * Cada registro ocupa una línea y sus valores van separados
- * por punto y coma, siempre en el mismo orden de $fields.
- *
- *   MSK-1001;Hombres de maíz;Miguel Ángel Asturias;Novela;1949;3;3;En circulación
- *
- * No se usa ningún motor de base de datos.
- * ============================================================ */
 
 class TextStore
 {

@@ -1,9 +1,4 @@
 <?php
-/* ============================================================
- * Flash.php — Avisos que sobreviven a una redirección
- * Se guardan en la sesión y se muestran una sola vez como
- * notificaciones (toasts) en la siguiente página.
- * ============================================================ */
 
 class Flash
 {

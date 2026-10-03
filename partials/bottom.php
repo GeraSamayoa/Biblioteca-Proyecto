@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * partials/bottom.php — Cierre de cada página
- * Incluye el pie de página, carga los scripts y cierra las
- * etiquetas que se abrieron en top.php.
- * ============================================================ */
+
 ?>
         </main>
 

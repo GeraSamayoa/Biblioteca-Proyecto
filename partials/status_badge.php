@@ -1,8 +1,5 @@
 <?php
-/* ============================================================
- * partials/status_badge.php — Etiqueta del estado de un préstamo
- * Espera una variable $loan (objeto Loan) disponible.
- * ============================================================ */
+
 $badgeStyle = match ($loan->status()) {
     Loan::OVERDUE  => ['text-bg-danger',  'fa-solid fa-hourglass-end'],
     Loan::RETURNED => ['text-bg-light border', 'fa-solid fa-check'],

@@ -1,9 +1,3 @@
-/* ============================================================
- * theme.css — Tema "biblioteca": blanco hueso con tonos café
- * El diseño se arma con clases de Bootstrap. Aquí solo va lo
- * que Bootstrap no permite configurar con clases.
- * ============================================================ */
-
 /* Paleta café aplicada a las variables de Bootstrap */
 :root {
     --bs-primary: #7a5230;

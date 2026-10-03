@@ -1,15 +1,4 @@
 <?php
-/* ============================================================
- * LibraryService.php — Reglas del negocio
- *
- * Aquí viven las reglas que involucran libros y préstamos a la
- * vez, para que ambos archivos queden siempre consistentes:
- *   - prestar descuenta un ejemplar, devolver lo suma
- *   - no se borra un libro con préstamos abiertos
- *   - no se dejan menos ejemplares de los que están prestados
- *
- * Los métodos devuelven un arreglo de errores (vacío = todo bien).
- * ============================================================ */
 
 class LibraryService
 {

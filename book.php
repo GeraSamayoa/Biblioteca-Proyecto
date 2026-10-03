@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * book.php — Alta y edición de un libro
- *   book.php            -> registrar un libro nuevo
- *   book.php?code=XXX   -> editar el libro XXX
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 $editCode = param('code');

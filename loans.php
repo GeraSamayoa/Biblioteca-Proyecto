@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * loans.php — Registrar un préstamo
- * Formulario en tres pasos (libro, estudiante, fechas) y la
- * lista de préstamos que siguen abiertos.
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 $form = [

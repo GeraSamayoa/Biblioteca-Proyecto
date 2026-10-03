@@ -1,8 +1,4 @@
 <?php
-/* ============================================================
- * BookRepository.php — Acceso a los libros guardados
- * Convierte las filas del archivo en objetos Book y viceversa.
- * ============================================================ */
 
 class BookRepository
 {

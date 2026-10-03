@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * returns.php — Registrar devoluciones
- * Cada préstamo pendiente aparece como una tarjeta con su botón
- * "Recibir libro". También se puede filtrar por carné o nombre.
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

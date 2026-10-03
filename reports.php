@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * reports.php — Consultas de préstamos
- * Pestañas por estado (Activo, Vencido, Devuelto) y un filtro
- * de texto para encontrar a un estudiante o un libro.
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 $tabs = [

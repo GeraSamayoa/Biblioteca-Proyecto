@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * index.php — Inicio
- * Portada con saludo y cifras del día, préstamos atrasados y
- * los últimos movimientos.
- * ============================================================ */
+
 require __DIR__ . '/app/init.php';
 
 $allBooks = $books->all();

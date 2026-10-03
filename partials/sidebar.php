@@ -1,9 +1,5 @@
 <?php
-/* ============================================================
- * partials/sidebar.php — Menú de navegación lateral
- * En pantallas grandes queda fijo a la izquierda; en celular
- * se convierte en un panel deslizable (offcanvas de Bootstrap).
- * ============================================================ */
+
 $menu = [
     'home'    => ['index.php',   'fa-regular fa-compass',      'Inicio'],
     'books'   => ['books.php',   'fa-solid fa-book',           'Libros'],

@@ -1,10 +1,5 @@
 <?php
-/* ============================================================
- * partials/header.php — Encabezado común de todas las páginas
- * Barra superior del área de contenido: muestra en qué sección
- * está el usuario, la fecha de hoy y un acceso rápido.
- * En celular incluye además el botón que abre el menú lateral.
- * ============================================================ */
+
 ?>
 <header class="bg-white border-bottom px-3 px-md-4 px-xl-5 py-3 d-flex align-items-center justify-content-between gap-3">
     <div class="d-flex align-items-center gap-3">

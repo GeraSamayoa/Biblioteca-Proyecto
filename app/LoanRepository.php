@@ -1,7 +1,4 @@
 <?php
-/* ============================================================
- * LoanRepository.php — Acceso a los préstamos guardados
- * ============================================================ */
 
 class LoanRepository
 {

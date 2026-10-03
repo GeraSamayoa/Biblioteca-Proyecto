@@ -1,14 +1,4 @@
 <?php
-/* ============================================================
- * FormValidator.php — Validación de formularios en el servidor
- *
- * Uso:
- *   $v = new FormValidator($_POST);
- *   $v->required('title', 'Título')->maxLength('title', 150, 'Título');
- *   if ($v->fails()) { ... $v->errors() ... }
- *
- * Solo se guarda el primer error de cada campo.
- * ============================================================ */
 
 class FormValidator
 {

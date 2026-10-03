@@ -1,8 +1,5 @@
 <?php
-/* ============================================================
- * partials/notices.php — Resultado de la última operación
- * Se muestra como notificación flotante (toast) arriba a la derecha.
- * ============================================================ */
+
 $styles = [
     'ok'    => ['text-bg-success', 'fa-solid fa-circle-check'],
     'error' => ['text-bg-danger',  'fa-solid fa-circle-exclamation'],
