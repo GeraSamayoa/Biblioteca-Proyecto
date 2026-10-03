@@ -1,0 +1,88 @@
+/* ============================================================
+ * theme.css — Tema "biblioteca": blanco hueso con tonos café
+ * El diseño se arma con clases de Bootstrap. Aquí solo va lo
+ * que Bootstrap no permite configurar con clases.
+ * ============================================================ */
+
+/* Paleta café aplicada a las variables de Bootstrap */
+:root {
+    --bs-primary: #7a5230;
+    --bs-primary-rgb: 122, 82, 48;
+    --bs-primary-bg-subtle: #f4ece2;
+    --bs-primary-border-subtle: #e3d3bf;
+    --bs-primary-text-emphasis: #5b3b1f;
+    --bs-link-color: #7a5230;
+    --bs-link-color-rgb: 122, 82, 48;
+    --bs-link-hover-color: #5b3b1f;
+    --bs-link-hover-color-rgb: 91, 59, 31;
+    --bs-body-color: #2f2620;
+    --bs-border-color: #ebe2d6;
+    --bs-body-font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+}
+
+/* Fondo color hueso; las tarjetas y campos se mantienen blancos */
+body {
+    background-color: #fbf8f3;
+}
+
+/* Tipografía con serifa para títulos (ambiente de biblioteca) */
+h1, h2, h3, .font-serif {
+    font-family: 'Lora', Georgia, serif;
+}
+
+/* Bootstrap trae los botones en azul fijo; se pasan a café */
+.btn-primary {
+    --bs-btn-bg: #7a5230;
+    --bs-btn-border-color: #7a5230;
+    --bs-btn-hover-bg: #5b3b1f;
+    --bs-btn-hover-border-color: #5b3b1f;
+    --bs-btn-active-bg: #5b3b1f;
+    --bs-btn-active-border-color: #5b3b1f;
+}
+.btn-outline-primary {
+    --bs-btn-color: #7a5230;
+    --bs-btn-border-color: #d9c6ae;
+    --bs-btn-hover-bg: #7a5230;
+    --bs-btn-hover-border-color: #7a5230;
+    --bs-btn-active-bg: #5b3b1f;
+}
+
+/* Campos de formulario: contorno café al enfocarlos */
+.form-control:focus,
+.form-select:focus {
+    border-color: #a87e55;
+    box-shadow: 0 0 0 .2rem rgba(122, 82, 48, .15);
+}
+
+/* Menú lateral: ancho fijo y siempre visible en pantallas grandes */
+@media (min-width: 992px) {
+    .sidebar {
+        width: 260px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Opción activa del menú: marca café a la izquierda */
+.sidebar .nav-link {
+    color: var(--bs-secondary-color);
+    border-left: 3px solid transparent;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: var(--bs-primary-text-emphasis);
+    background: var(--bs-primary-bg-subtle);
+}
+.sidebar .nav-link.active {
+    border-left-color: var(--bs-primary);
+    font-weight: 600;
+}
+
+/* Portada del inicio: café transparente y difuminado (degradado) */
+.portada {
+    background: linear-gradient(135deg, rgba(122, 82, 48, .58) 0%, rgba(140, 96, 56, .42) 55%, rgba(180, 138, 90, .28) 100%);
+}
